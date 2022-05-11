@@ -1,0 +1,10 @@
+digraph trees {
+  subgraph t {
+    0 -> "1" [label = "A"];
+  }
+  SUBGRAPH u {
+    Animal -> Cat [label = "feline", shape="record"];
+    Animal -> Dog [label = "canine"];
+    Animal -> Bird [label = "tweety", shape="record"];
+  }
+}

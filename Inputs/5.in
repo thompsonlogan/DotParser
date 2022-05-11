@@ -1,0 +1,6 @@
+digraph G {
+    execute -> printf
+    init -> makeString;
+    main -> printf;
+    execute -> compare;
+}
